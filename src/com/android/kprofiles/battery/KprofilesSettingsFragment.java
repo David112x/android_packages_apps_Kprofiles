@@ -47,7 +47,7 @@ public class KprofilesSettingsFragment extends PreferenceFragment implements
     private boolean mSelfChange = false;
 
     public static final String INTENT_ACTION = "com.android.kprofiles.battery.KPROFILE_CHANGED";
-    public static final String KPROFILES_MODES_NODE = "/sys/module/kprofiles/parameters/kp_mode";
+    public static final String KPROFILES_MODES_NODE = "/sys/kernel/kprofiles/kp_mode";
     public static final String KPROFILES_AUTO_KEY = "kprofiles_auto";
     public static final String KPROFILES_AUTO_NODE = "/sys/module/kprofiles/parameters/auto_kprofiles";
     public static final String KPROFILES_MODES_KEY = "kprofiles_modes";
